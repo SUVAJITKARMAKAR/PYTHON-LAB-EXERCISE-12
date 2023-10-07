@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title> HELLO APPLICATION </title>
+
+<!-- FONT-AWESOME-CDN-LINK-SECTION  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- CSS-SECTION  -->
+<style>
+* {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav ul.nav-links li {
+    margin-right: 20px;
+}
+
+nav ul.nav-links li:last-child {
+    margin-right: 0;
+}
+
+nav ul.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile {
+    text-align: center;
+}
+
+.user-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.add-friend {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-feed {
+    margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1> HELLO</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PROFILE</a></li>
+                <li><a href="#">FRIENDS</a></li>
+                <li><a href="#">MESSAGES</a></li>
+                <li><a href="#">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="user-profile">
+            <div class="user-avatar">
+               <i class="fa-solid fa-user-tie fa-2xl"></i>
+            </div>
+            <h2> SUBHAM GORAI </h2>
+            <p> Chemical lover | Photography | Foodie </p>
+            <button class="add-friend">Add Friend</button>
+        </section>
+
+        <section class="post-feed">
+            <!-- Display user posts here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Social Network</p>
+    </footer>
+</body>
+
+     <!-- JAVASCRIPT-SECTION  -->
+     <script type="text/javascript">
+
+     </script>
+</body>
+</html>
